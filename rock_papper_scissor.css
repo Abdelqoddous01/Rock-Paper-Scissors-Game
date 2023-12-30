@@ -1,0 +1,121 @@
+
+body{
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.imogie{
+    color: rgb(238, 188, 6);
+    font-size: 50px;
+    /* color: rgba(243, 241, 112, 0.965); */
+}
+
+.hand{
+
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-left: 40px;
+}
+
+.hand:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px black;
+}
+
+.hand:active{
+    background-color: rgb(21, 19, 19);
+    width: 190px;
+    height: 190px;
+}
+
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Kalnia', serif;
+    color: rgb(245, 178, 9);
+    background-color: rgb(50, 49, 49);
+}
+
+#side{
+    background-color: rgb(192, 199, 199);
+    width: 300px;
+    height: 550px ;
+}
+
+#main-container {
+    display: flex;
+}
+
+#hand-container {
+    flex-grow: 1;
+    text-align: center; 
+}
+
+
+.computer{
+    margin-left: 4%;
+}
+
+
+#side h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(208, 136, 12);
+    font-size: 30px;
+}
+
+
+
+#side button{
+    width: 200px;
+    height: 100px;
+    margin-left: 15%;
+    background-color: rgb(50, 195, 77);
+    border: 0px;
+    border-radius: 10px;
+}
+
+#side button:hover{
+    background-color:  rgb(11, 223, 50);
+    cursor: pointer;
+}
+
+#side button:active{
+    width: 190px;
+    height: 90px;
+}
+
+#start{
+    font-size: 20px;
+}
+
+#counter{
+    text-align: center;
+    color: rgb(234, 165, 4);
+    font-size: 40px;
+}
+
+#counter_container{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    margin-left: 7%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 5px 10px gray;
+}
+
+#results{
+    position: relative;
+    left: 35%;
+    color: black;
+    font-size: 20px;
+    font-family: bold;
+}
