@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="rock_papper_scissor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Kalnia:wght@200;300&display=swap" rel="stylesheet">
+    <script src="rock_papper_scissor.js"></script>
+</head>
+<body>
+    <header><h1>Rock Paper Scissors game</h1></header>
+    <div id="main-container">
+        <section id="side">
+            <h1>Start The Game</h1>
+            <br><br><br>
+            <button id="start">Play</button>
+            <br><br>
+            <div id="counter_container"> <p id="counter">Counter</p></div>
+           
+            <div id="results">
+                <p id="wins">Wins: 0</p>
+                <p id="loses">Loses: 0</p>
+                <p id="ties">Ties: 0</p>
+            </div>
+        </section>
+        <div id="hand-container">
+            <h2>You</h2>
+            <button type="button" class="hand" id="rock"><i class="fa-solid fa-hand-fist imogie"></i></button>
+            <button type="button" class="hand" id="paper"><i class="fa-solid fa-hand imogie"></i></button>
+            <button type="button" class="hand" id="scissors"><i class="fa-solid fa-hand-scissors imogie"></i></button>
+            <br><br>
+            <h2>Computer</h2>
+            <button type="button" class="hand computer" id="computer"><i class="fa-solid fa-question imogie"></i></button>
+        </div>
+    </div>
+</body>
+</html>
